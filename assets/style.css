@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    width: 100%;
+    background-color: #131334;
+    font-family: 'Outfit', sans-serif;
+    color: #ebebeb;
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 64px;
+    font-weight: 900;
+    position: relative;
+    top: 16px;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+  }
+  
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+  
+  h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+
+  #extraction{
+    text-align: center;
+  }
+
+  button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding: 10px;
+    color:  #131334;
+    border: 5px solid color #7a408a;
+    cursor: pointer;
+  }
+
+ 
+
+  .cells {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    
+  }
+
+ 
