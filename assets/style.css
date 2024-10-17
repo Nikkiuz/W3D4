@@ -72,8 +72,6 @@ html {
   .random {
     display: block;
     text-align: center;
-
-    
   }
 
   .numextr {
@@ -87,14 +85,9 @@ html {
     margin-left: 20em;
     margin-right: 20em;
     font-size: 25px;
-    
-   
-  }
+   }
 
-   
-    
-    .cells {
-    
+   .cells {
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -104,7 +97,11 @@ html {
     text-align: center;
     padding: 10px;
     margin: 5px;
-    
+   }
+
+  .selected {
+    border-color: #7a408a;
+    color: #ac1bc9;
   }
 
  
