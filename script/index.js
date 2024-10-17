@@ -1,10 +1,43 @@
-const extractNumber = document.getElementsByTagName('button')
+const numbersTot = 75
+
+const removeOldNum = function () { 
+                    const allRandom = document.getElementsByClassName('numextr')
+                    for (let i = 0; i < allRandom.length; i++) {
+                        
+                        allRandom[i].remove(i)
+        }}
+
+const extractNumber = function (){
+        randomNum = document.querySelector('button')
+        
+        randomNum.addEventListener('click', function() {        
+                
+            const removeOldNum = function () { 
+                const allRandom = document.getElementsByClassName('numextr')
+                for (let i = 0; i < allRandom.length; i++) {
+                    
+                    allRandom[i].remove(i)
+    }}
+
+                 const extrNum = document.createElement('div')
+                 extrNum.classList.add('numextr')
+
+                const numValue = document.createElement('h3')
+                 numValue.innerText = Math.floor(Math.random() * 76) + 1
+
+                 extrNum.appendChild(numValue)
+                 numextr.appendChild(extrNum)
+ 
+            }
+        
+        )}
+
+
 
 
 
 const createNumberCells = function (){
     const numbersSection = document.getElementById('numbers')
-    const numbersTot = 75
     for (let i = 0; i <= numbersTot; i++) {
         const numberCells = document.createElement('div')
         numberCells.classList.add('cells')
@@ -14,7 +47,7 @@ const createNumberCells = function (){
 
         numberCells.appendChild(cellValue)
     
-        numbers.appendChild(numberCells)
+        numbersSection.appendChild(numberCells)
         
     }
 
@@ -22,9 +55,5 @@ const createNumberCells = function (){
 }
 
 createNumberCells()
-
-
-// extractNumber.addEventListener('click',function () {
-
-    
-// } )
+console.log(extractNumber())
+removeOldNum()

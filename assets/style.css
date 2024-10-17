@@ -69,9 +69,32 @@ html {
     cursor: pointer;
   }
 
- 
+  .random {
+    display: block;
+    text-align: center;
 
-  .cells {
+    
+  }
+
+  .numextr {
+    text-align: center;
+    background-color: #ffffff;
+    color: #ac1bc9;
+    border-radius: 8px;
+    border: 5px solid #ac1bc9;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20em;
+    margin-right: 20em;
+    font-size: 25px;
+    
+   
+  }
+
+   
+    
+    .cells {
+    
     display: inline-block;
     width: 80px;
     height: 80px;
