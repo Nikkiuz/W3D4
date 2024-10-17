@@ -21,7 +21,6 @@ const createNumberCells = function (){
                         cellValue.innerText = i + 1
                             
                         numberCells.appendChild(cellValue)
-                            
                         numbersSection.appendChild(numberCells)
                     }}
 
