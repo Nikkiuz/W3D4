@@ -38,16 +38,21 @@ const extractNumber = function (){
             if (parseInt(cell.getAttribute('data-value')) === randomNumber) {
                 cell.classList.add('selected')
             }
+             
         })
+        
       
         const extrNum = document.createElement('div')
         extrNum.classList.add('numextr')
         const numValue = document.createElement('h3')
         numValue.innerText = randomNumber
 
+            
+
         extrNum.appendChild(numValue)
         numextr.appendChild(extrNum)
-    })
+
+        })
 }
 
 
